@@ -1,0 +1,12 @@
+---
+title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I analyse RNA-sequencing data from the mouse mammary gland, demonstrating use of the popular edgeR package to import, organise, filter and normalise the data, followed by the limma package with its voom method, linear modelling and empirical Bayes moderation to assess differential expression and perform gene set testing. This pipeline is further enhanced by the Glimma package which enables interactive exploration of the results so that individual samples and genes can be examined by the user.
+The material used in this workshop are from the Bioconductor package RNAseq123 <https://bioconductor.org/packages/release/workflows/html/RNAseq123.html>
+
